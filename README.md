@@ -1,4 +1,3 @@
-# [--> Site com implemwntação do framework Django <--](https://franciellydiasm.github.io/portfolio/)http://127.0.0.1:8000/
 
 ## Implementação de um site utilizando o framework Django, adaptando um design já existente.
 
@@ -122,3 +121,5 @@ bash
 python manage.py runserver
 ```
 Acesse `http://127.0.0.1:8000` e veja seu site funcionando com Django!
+
+http://127.0.0.1:8000/
