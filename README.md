@@ -1,4 +1,4 @@
-[-- Pagina Setembro Amarelo com Django --](https://franciellydiasm.github.io/Implementando-o-Django-framework/)
+
 ## Implementação de um site utilizando o framework Django, adaptando um design já existente.
 
  1. **Instalar Django e configurar o projeto**
