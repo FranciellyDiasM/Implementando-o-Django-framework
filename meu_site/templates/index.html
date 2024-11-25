@@ -1,0 +1,111 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Setembro Amarelo</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+
+ <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="{% static 'css/assets/dist/css/bootstrap.min.css' %}">
+
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="{% static 'css/assets/starter-template.css' %}">
+
+<!-- My styles -->
+<link rel="stylesheet" href="{% static 'css/assets/style.css' %}">
+
+ 
+</head>
+
+<body id="index">
+  <div class="background">
+
+    <nav><!--cabecalho link-->
+      <h2> SETEMBRO <span>AMARELO</span> <img src="{% static 'img/fitaamarela1-removebg-preview.png' %}" alt="Logo">
+      </h2>
+
+      <ul class="cabecalho-link">
+        <li><a href="index.html">Página inicial</a></li>
+        <li><a href="origem.html">Origem</a></li>
+        <li><a href="movimento.html">O Movimento</a></li>
+        <li><a href="prevencao.html">Prevenção</a></li>
+        <li><a href="brasil.html">No Brasil</a></li>
+      </ul>
+
+      <a href="#index" class="btn-init btn-rigth"><img src="{% static 'img/setacima.png' %}" alt="subir a pagina">
+      </a>
+    </nav>
+
+  </div>
+
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
+    <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+
+      <img src="{% static 'img/fitamarela3.png' %}" alt="fitaamarela" width="40" height="32" class="me-2">
+      <span class="fs-4">Vamos conversar sobre?</span>
+      </a>
+    </header>
+
+    <main>
+      <h1>O que significa o Setembro Amarelo?</h1>
+      <p class="fs-5 col-md-8"> É nesse mês que no dia 10 se comemora o dia mundial de prevenção do suicídio. Ao mesmo
+        tempo em que há muita discussão sobre o tema e que são organizadas caminhadas, durante esse mês alguns locais
+        são decorados com a cor amarela.</p>
+
+      <div class="mb-5">
+        <a href="origem.html" class="btn btn-primary btn-lg px-4">Leia sobre a origem</a>
+      </div>
+
+      <hr class="col-3 col-md-2 mb-5">
+
+      <div class="row g-5">
+        <div class="col-md-6">
+          <h2>O Movimento</h2>
+          <p>O Setembro Amarelo surgiu com a ideia de quebrar tabus, reduzir estigmas, estimular que as pessoas busquem
+            e ofereçam ajuda.
+            Desde 2015, quando ocorreu a primeira edição, ano a ano este movimento vem crescendo com mais pessoas
+            reconhecendo que
+            falar sobre suicídio é fundamental, mas exige cuidados.</p>
+          <ul class="icon-list">
+            <li><a href="movimento.html" rel="noopener" target="_blank">Saiba mais</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h2>Como ajudar?</h2>
+          <p>Todos podemos fazer esta pergunta: tem algo que posso fazer para te ajudar?</p>
+          <ul class="icon-list">
+            <li><a href="prevencao.html">Busque ajuda</a></li>
+          </ul>
+
+          <h2>No Brasil</h2>
+          <p>Brasil tem mais de 30 internações ao dia por tentativa de suicídio.</p>
+          <ul class="icon-list">
+            <li><a href="brasil.html">
+                Mais informações</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="pt-5 my-5 text-muted border-top">
+      Projeto para Tópicos Especiais I &middot; &copy; 2024<br>
+      Desenvolvido por Francielly Dias Macedo Trancoso Dal-cim
+    </footer>
+  </div>
+
+  <script src="{% static 'css/assets/dist/js/bootstrap.bundle.min.js' %}"></script>
+
+
+
+</body>
+
+</html>
