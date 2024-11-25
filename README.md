@@ -3,7 +3,7 @@ http://127.0.0.1:8000/
  1. **Instalar Django e configurar o projeto**
 - Certifique-se de ter o Python instalado.
 - Instale o Django:
-  > bash 
+<sub>bash<sub> 
 ```
 pip install django
 ```
